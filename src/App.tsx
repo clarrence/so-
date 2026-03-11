@@ -116,7 +116,7 @@ export default function App() {
           className="absolute top-8 left-8 pointer-events-auto group flex items-center gap-2"
         >
           <div className="animate-boil group-hover:opacity-60 transition-all duration-300">
-            <span className="font-display font-bold italic text-sm tracking-[0.2em] uppercase group-hover:tracking-[0.3em] transition-all duration-300 gold-text">Home</span>
+            <span className="font-display italic text-3xl tracking-[0.2em] uppercase group-hover:tracking-[0.3em] transition-all duration-300 gold-text">Home</span>
           </div>
         </button>
 
@@ -126,7 +126,7 @@ export default function App() {
           className="absolute top-8 right-8 pointer-events-auto group flex items-center gap-2"
         >
           <div className="animate-boil group-hover:opacity-60 transition-all duration-300 text-right">
-            <span className="font-display font-bold italic text-sm tracking-[0.2em] uppercase group-hover:tracking-[0.3em] transition-all duration-300 gold-text">Bio</span>
+            <span className="font-display italic text-3xl tracking-[0.2em] uppercase group-hover:tracking-[0.3em] transition-all duration-300 gold-text">Bio</span>
           </div>
         </button>
 
@@ -136,7 +136,7 @@ export default function App() {
           className="absolute bottom-8 left-8 pointer-events-auto group flex items-center gap-2"
         >
           <div className="animate-boil group-hover:opacity-60 transition-all duration-300">
-            <span className="font-display font-bold italic text-sm tracking-[0.2em] uppercase group-hover:tracking-[0.3em] transition-all duration-300 gold-text">Music</span>
+            <span className="font-display italic text-3xl tracking-[0.2em] uppercase group-hover:tracking-[0.3em] transition-all duration-300 gold-text">Music</span>
           </div>
         </button>
 
@@ -146,7 +146,7 @@ export default function App() {
           className="absolute bottom-8 right-8 pointer-events-auto group flex items-center gap-2"
         >
           <div className="animate-boil group-hover:opacity-60 transition-all duration-300 text-right">
-            <span className="font-display font-bold italic text-sm tracking-[0.2em] uppercase group-hover:tracking-[0.3em] transition-all duration-300 gold-text">
+            <span className="font-display italic text-3xl tracking-[0.2em] uppercase group-hover:tracking-[0.3em] transition-all duration-300 gold-text">
               {isMuted ? 'Unmute' : 'Mute'}
             </span>
           </div>

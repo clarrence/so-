@@ -1,8 +1,22 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: 'Garamondt';
+  src: url('/fonts/Garamondt-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Garamondt';
+  src: url('/fonts/Garamondt-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
 @theme {
   --font-serif: "Caudex", serif;
-  --font-display: "Playfair Display", serif;
+  --font-display: "Garamondt", "Playfair Display", serif;
   --color-gold: #D4AF37;
   --color-gold-light: #F9E29C;
   --color-gold-dark: #996515;
