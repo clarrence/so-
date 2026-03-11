@@ -7,7 +7,7 @@ import { useState, useRef, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { X } from 'lucide-react';
 
-// Use a constant for the custom element to avoid JSX type issues
+// Use a constant for the custom element to avoid JSX type issues --
 const SplineViewer = 'spline-viewer' as any;
 
 interface WorkItemProps {
