@@ -24,6 +24,7 @@ const WorkItem = ({ year, title, subtitle }: WorkItemProps) => (
   </div>
 );
 
+// Main Application Component
 export default function App() {
   const [activeOverlay, setActiveOverlay] = useState<'bio' | 'music' | null>(null);
   const [isMuted, setIsMuted] = useState(false);
