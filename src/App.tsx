@@ -24,7 +24,7 @@ const WorkItem = ({ year, title, subtitle }: WorkItemProps) => (
   </div>
 );
 
-// Main Application Component - V8 (Relative Deploy)
+// Main Application Component - V9 (GitHub Actions Deploy)
 export default function App() {
   const [activeOverlay, setActiveOverlay] = useState<'bio' | 'music' | null>(null);
   const [isMuted, setIsMuted] = useState(false);
