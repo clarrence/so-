@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: 'Garamondt';
-  src: url('./fonts/Garamondt-Regular.woff') format('woff');
+  src: url('/so-/fonts/Garamondt-Regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Garamondt';
-  src: url('./fonts/Garamondt-Italic.woff') format('woff');
+  src: url('/so-/fonts/Garamondt-Italic.woff') format('woff');
   font-weight: normal;
   font-style: italic;
 }
